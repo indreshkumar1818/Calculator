@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(181, 168, 168);
+}
+.conatiner {
+  top: 90px;
+  margin-left: 550px;
+
+  position: absolute;
+  align-items: center;
+  height: 600px;
+  width: 350px;
+  background-color: rgb(23, 27, 27);
+  border-radius: 10px;
+}
+.output {
+  top: 14%;
+  position: absolute;
+}
+#result {
+  opacity: 50%;
+  margin-left: 270px;
+}
+.output span {
+  color: white;
+  font-size: 36px;
+
+  margin-left: 190px;
+}
+.button {
+  position: absolute;
+  margin-top: 180px;
+}
+.button button {
+  border: none;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  padding: 17px;
+  margin-top: 20px;
+  margin-left: 23px;
+  font-size: 20px;
+  font-weight: 600;
+}
